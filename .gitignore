@@ -5,6 +5,7 @@
 !.gitignore
 !Modules/
 !configs/
+!Raw_rates_calculation/
 
 !Standard_analysis.py
 !Modules/DatasetAnalysis.py
@@ -13,4 +14,6 @@
 !Modules/PmtLookup.py
 !Modules/RateCalculator.py
 !Modules/RootIO.py
+!Modules/__init.py__
 !configs/**
+!Raw_rates_calculation/Calculate_raw_rates.py
