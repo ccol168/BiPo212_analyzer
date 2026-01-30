@@ -1,0 +1,47 @@
+# ---------- File paths ----------
+data_folder: "Esd_new_code/analysis/After_first_article"
+kernel_file: "Kernels/ideal_signals.root"
+lookup_table: "Calib_constants/lookup_table_par1_r_costh_8_ott_25.txt"
+
+# ---------- Data post-processing ----------
+DN_NHits: 343
+delay_min: 200
+delay_max: 500
+
+# ---------- Efficiencies ----------
+muon_veto_length: 0.001
+total_efficiency_factor: 0.137
+
+# ---------- Fit ----------
+fit_method: "extended_unbinned_iminuit_log"
+
+# ---------- Fit range and type (can be overridden by CLI) ----------
+fit_range: [1600, 1900]
+fit_type: "single"
+
+# ---------- Radial cuts for rate calculation (mm) ----------
+FV_cuts: [16500, 15000, 13000, 10000]
+FV_cuts_hemisphere_enabled: true
+FV_cuts_hemisphere: [15000]  
+
+# ---------- Cuts for plotting / selections ----------
+Bi_min: 1000
+
+# ---------- Options for event distribution plot ----------
+FinalPo_min: 1500
+FinalPo_max: 2000
+FV_circles: [17700, 15000, 13000, 10000]
+FV_colors: ['black', 'red', 'orange', 'yellow']
+
+# ---------- Enable/Disable std JUNO FV -------------------
+FV_enabled: true
+
+# ---------- Cuts to apply to exponential fit ---------------
+Expo_Rcut : 15000
+Expo_sigma_cut : 2
+Expo_reBin : 2
+Free_parameters : true
+Fixed_amplitude : true
+Fixed_halflife : true
+Fixed_zero_C : false
+

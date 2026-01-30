@@ -3,6 +3,9 @@
 
 #Explicitly save this files 
 !.gitignore
+!Modules/
+!configs/
+
 !Standard_analysis.py
 !Modules/DatasetAnalysis.py
 !Modules/ExpoFitter.py

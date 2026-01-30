@@ -1,0 +1,5 @@
+Bi-Po branching ratio = 0.6407
+Efficiency cut in [200-500] ns = 0.31522
+
+Bi 1000 NHits cut = 0.7268 (first run)
+Bi 1000 NHits cut = 0.6792 (after first run)
